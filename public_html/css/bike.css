@@ -1,0 +1,117 @@
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #f9f9f9;
+    position: absolute;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.frame {
+    width: 1060px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px -5px 5px 0px rgba(0, 0, 0, 0.3);
+    margin-top: -20px;
+    height: 100%;
+    padding: 18px 46px 60px;
+}
+.frame h1 {
+    font-size: 48px;
+    font-weight: normal;
+}
+.menu li {
+    display: inline-block;
+    line-height: 40px;
+}
+.top-menu {
+    background: linear-gradient(#5e5e5e, #444343);
+}
+.top-menu li a {
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    font-size: 15px;
+}
+.menu ul {
+    padding: 0;
+}
+.menu li a {
+    padding: 0 20px;
+    text-decoration: none;
+}
+.top-menu li:hover {
+    background: linear-gradient(#4a4a4a, #2e2e2e);
+    border-left: solid 1px #838383;
+    border-right: solid 1px #838383;
+}
+.top-menu li:hover a {
+    padding: 0 19px;
+}
+.bottom-menu ul li:last-child {
+    float: right;
+    margin-right: 25px;
+}
+.bottom-menu {
+    background: #e1e1e1;
+}
+.bottom-menu li a {
+    padding: 0 25px;
+}
+.bottom-menu li a, .bottom-menu li {
+    color: #2c2c2c;
+    font-size: 13px;
+}
+.bottom-menu li a:hover {
+    text-decoration: underline;
+}
+.side-menu {
+    width: 30%;
+    float: left;
+}
+.content {
+    width: 70%;
+    float: right;
+}
+.clearfix {
+    float: none;
+    clear: both;
+}
+.picture {
+    border: solid 1px #c8c8c8;
+    width: 740px;
+    height: 400px;
+    box-sizing: border-box;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+.content p {
+    padding: 26px;
+    font-size: 13px;
+}
+.side-menu li a {
+    text-decoration: none;
+    color: #656363;
+    font-size: 13px;
+    padding: 11px; 
+}
+.side-menu li a:hover {
+    color: #2c2c2c;
+    padding-left: 30px;
+}
+.side-menu li {
+    border: solid 1px #c8c8c8;
+    border-bottom: none;
+    list-style-type: none; 
+    width: 240px;
+    padding: 9px;
+}
+.side-menu li:last-child {
+    border-bottom: solid 1px #c8c8c8;
+}
+.side-menu li:hover {
+    background: #f9f9f9;
+}
+.side-menu ul {
+    padding: 0;
+}
