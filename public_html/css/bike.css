@@ -7,17 +7,21 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 header {
-    margin-bottom: 35px;
+    margin-bottom: 38px;
 }
-.frame {
+.inside {
     width: 1060px;
-    background-color: white;
     margin-left: auto;
     margin-right: auto;
+}
+.frame {
+    width: 100%;
+    background-color: white;
     box-shadow: 0px -5px 5px 0px rgba(0, 0, 0, 0.3);
     margin-top: -20px;
     height: 100%;
     padding: 18px 46px 60px;
+    box-sizing: border-box;
 }
 .frame h1 {
     font-size: 48px;
@@ -59,22 +63,25 @@ header {
 }
 .bottom-menu li a {
     padding: 0 25px;
-}
+    }
 .bottom-menu li a, .bottom-menu li {
     color: #2c2c2c;
     font-size: 13px;
-}
+    }
 .bottom-menu li a:hover {
     text-decoration: underline;
 }
 .side-menu {
     width: 30%;
     float: left;
+    }
+.side-menu, .content {
+    margin-bottom: 20px;
 }
 .content {
     width: 70%;
-    float: right;
-}
+    float: left;
+    }
 .clearfix {
     float: none;
     clear: both;
@@ -106,7 +113,7 @@ header {
     border: solid 1px #c8c8c8;
     border-bottom: none;
     list-style-type: none; 
-    width: 240px;
+    width: 220px;
     padding: 9px;
 }
 .side-menu li:last-child {
@@ -118,4 +125,20 @@ header {
 .side-menu ul {
     padding: 0;
     margin: 0;
+}
+@media (max-width: 775px) {
+        aside {
+            display: none;
+        }
+       
+        .inside {
+            width: 100%
+        }
+        
+        .content, .picture, .picture img {
+            width: 100%;
+        }
+        .picture {
+            height: auto;
+        }
 }
